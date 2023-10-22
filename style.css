@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+/*Global styles Starts*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'AR One Sans', sans-serif;
+  
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Global style End */
+
+/*Header styles start*/
+.header{
+    height: 40vh;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 4vw;
+    color: wheat;
+    background-image: url("https://plus.unsplash.com/premium_photo-1686174386421-8ba6970b9133?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY1fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Header styles End*/
+
+
+/* word counter starts */
+.word-counter-wrapper{
+    display: flex;
+    height: 400px;
+    gap: 20x;
+    margin-top: 2rem;
+    background: #3b3030;
+    color: #fff;
+    border-radius:  20px;
+    /* border: 2px solid rgb(243, 243,243); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px;
+}
+
+.word-counter-textarea{
+    width: 60%;
+    border: none;
+
+}
+.statistics{
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.stats{
+    display: grid;
+    place-content: center;
+}
+
+.stats-number{
+    font-size: 40px;
+}
+
+
+.stats-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.word-counter-textarea{
+    padding: 1.5rem;
+    font-size: 20px;
+    color: #001d2d;
+    font-family: 'AR One Sans', sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.warning{
+    text-align: center;
+    padding: 30px 0;
+    /* max-width: 200px; */
+    background-color: rgb(223, 100, 100);
+    margin-top: 2rem;
+    color: #d4cece;
+    font-size: 20px;
+    display: none;
+}
+
+.warning-visible{
+    display: block;
+}
+
+/* word counter End */
